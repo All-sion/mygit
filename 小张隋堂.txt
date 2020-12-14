@@ -1,0 +1,149 @@
+新建文件
+1.cd/
+2.vue create  myel
+3.Many  选择最后一步/
+4.空格选择 router vex  css  linter
+5.2.X
+6.选择n
+7.Less
+8.选择默认only
+9.less默认
+10.In默认
+11选择n
+
+安装element-ui
+1.cd   /myel
+2.npm  i  element-ui  -S
+3.npm  run   serve
+
+项目要求:
+1.录制自己项目视频,配音乐!!
+2.压缩打包zip,不打包node_modules  dist 目录
+3.原网站网址:
+4.自己的接口文件配置
+
+
+
+
+12.7面试题
+js当我们new一个对象发生了什么?
+
+
+
+
+webkpack插件和loader区别
+loader让webpack拥有处理模块的能力(默认处理js能力,css-loader拥有处理css能力)
+plugin让webpack在执行生命周期过程拥有其他的能力(压缩 优化)
+
+vue如何实现缓存
+keep-alive属性
+include可以包含那些组件
+exclude排除哪些组件
+
+
+vuex哪些模块
+state  状态   $store.state  mapState
+getters获取器  $store.gettrs   mapGetter
+mutations改变器  $store.commit(xxx,data)mapMutations
+actions动作  $store.dispatch(xxx,data) mapActions
+modules模块
+
+
+单vue文件的加载，以及babel的使用
+安装依赖，用到的依赖比较多
+
+
+npm i vue -S
+npm i vue-loader  vue-style-loader vue-template-compiler vue-hot-reload-api -D
+
+
+
+
+
+Git的学习
+1.目前是世界上最先进的分布式版本控制系统(没有之一)
+作用:
+1.永远保存你的每个版本
+2.代码的版本管理,协作多人开发
+3.创建了linux,不断发展,称为最大服务器系统软件
+4.版本管理,Linus  花了5创建了linux  然后创建git
+一.Git安装
+第一步:git  --version    
+版本号:git  version  2.8.3.  windows.1
+第二步:git   config  --global  user.name  "zeng"
+         git   config  --global  user.email  "zengmumu@126.com"
+         cd /
+第三步:md  mygit
+           cd    mygit
+第四步:git   init
+打开c盘  mygit文件
+点击查看  勾选隐藏的项目
+第五步:
+添加占存盘: git  add  readme.txt
+恢复:git  checkout  readme.txt
+第六步:index.html
+    创建my.text
+第七部:添加 所有*.text文件
+  添加:git  add  *. txt
+  添加所有  git   add   .
+恢复任意  git  checkout  .
+第八步
+先修改
+git  commit  -m  "v1"
+git  add  .
+git  commit  -m "v2"
+第九步
+切换版本  v1  和v2
+先git  log
+git   reset  --hard  24da这个版本号
+第十步
+cls  清屏
+v4  切换v1版本  git  reset --hard  HEAD``
+git  log  所有版本
+git   reflog 相关版本记录
+第11步  分支管理
+主分支干活  其他分支干活  合并
+ 创建分支dev  :git  checkout  -b  dev 
+查看当前分支:git  branch
+首先添加  git  add  .
+git  commit  -m  "购物车1"""
+首先添加  git  add  .
+git  commit  -m  "购物车完成"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
